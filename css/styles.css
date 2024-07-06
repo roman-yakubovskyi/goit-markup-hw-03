@@ -46,6 +46,12 @@ a {
 }
 
 .nav-list {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.contacts-list {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -93,19 +99,13 @@ button {
   margin-left: auto;
 }
 
-.contacts-list {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
 .contacts-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  display: block;
-  padding: 24px 0;
 }
 
 .nav-link:hover,
