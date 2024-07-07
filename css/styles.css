@@ -200,8 +200,9 @@ button {
   background-color: #f4f4fd;
 }
 
-.container-section {
-  padding: 120px 0;
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-title {
@@ -263,6 +264,7 @@ button {
 
 .our-portfolio-container {
   border: 1px solid #e7e9fc;
+  border-top: none;
   padding: 32px 16px;
 }
 
@@ -285,7 +287,8 @@ button {
 }
 
 .footer-container {
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .page-footer {
