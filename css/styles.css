@@ -159,17 +159,19 @@ button {
   background-color: #404bbf;
 }
 
+.features-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .visually-hidden {
+  width: 1px;
+  height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
   white-space: nowrap;
   overflow: hidden;
-}
-
-.features {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .features-list {
