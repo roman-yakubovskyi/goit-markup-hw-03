@@ -167,7 +167,14 @@ button {
   border: 0;
   padding: 0;
   white-space: nowrap;
+  clip-path: inset (100%);
+  clip: rect (0 0 0 0);
   overflow: hidden;
+}
+
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .features-list {
@@ -198,9 +205,6 @@ button {
 
 .our-team {
   background-color: #f4f4fd;
-}
-
-.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -251,6 +255,11 @@ button {
   color: #434455;
 }
 
+.our-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .our-portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -286,13 +295,10 @@ button {
   text-align: left;
 }
 
-.footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .page-footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
