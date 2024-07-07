@@ -25,6 +25,12 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -117,6 +123,7 @@ button {
 
 .hero {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -126,6 +133,8 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin: 0 auto;
+  max-width: 496px;
 }
 
 .hero-btn {
@@ -135,7 +144,14 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
   background-color: #4d5ae5;
+  border-radius: 4px;
+  margin: 48px auto 0 auto;
+  display: block;
+  width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .hero-btn:hover,
@@ -144,10 +160,24 @@ button {
 }
 
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
   margin: -1px;
   border: 0;
+  padding: 0;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.features-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.features-item {
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-subtitle {
@@ -156,6 +186,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .features-item-text {
@@ -169,6 +200,10 @@ button {
   background-color: #f4f4fd;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -177,10 +212,24 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.our-team-list {
+  display: flex;
+  flex-wrap: none;
+  gap: 24px;
+}
+
+.our-team-container {
+  text-align: center;
+  padding: 32px 16px;
 }
 
 .our-team-item {
   background-color: #fff;
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
 .our-team-subtitle {
@@ -190,6 +239,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .our-team-text {
@@ -200,12 +250,25 @@ button {
   color: #434455;
 }
 
+.our-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 48px;
+}
+
+.our-portfolio-item {
+  width: calc((100% - 2 * 24px) / 3);
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .our-portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: left;
+  margin: 32px auto 8px 16px;
 }
 
 .our-portfolio-text {
@@ -213,6 +276,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: left;
+  margin: 0 auto 32px 16px;
 }
 
 .page-footer {
